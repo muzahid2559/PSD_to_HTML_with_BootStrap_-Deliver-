@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+} 
+
+/* header part css start */
+#header{
+    background-image: url(img/home/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 0 60px 0;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+}
+.navbar-brand a{
+    font-size: 40px;
+    color: #ffffff;
+}
+.social-icon{
+    margin-top: 15px;
+}
+.social-icon ul li{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+}
+.social-icon ul li a .icon{
+    color: #6d6150;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.menu{
+    font-family: 'Poppins', sans-serif;
+}
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff !important;
+}
+.menu ul li a:hover{
+    color: #87b672 !important;
+}
+.menu ul li{
+    padding: 0 15px;
+}
+.menu ul li.active a{
+    color: #87b672 !important;
+}
+.hr-header{
+    background-color: #ffffff;
+}
+.form-control {
+	width: 0;
+	background-color: transparent;
+	border: none;
+}
+.icon-search{
+    color: #ffffff;
+    font-size: 20px;
+}
+.icon-search:hover{
+    color: #87b672;
+}
+.button-custom:focus{
+    box-shadow: none;
+}
+/* slider */
+.slider-content{
+    padding: 50px 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 90px;
+}
+.slider-content h1{
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.slider-content p{
+    font-size: 22px;
+}
+.slider-button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.slider-button:hover{
+    background-color: #87b672;
+    color: #ffffff;  
+}
+.slider-button:focus{
+    box-shadow: none;
+}
+.carousel-indicators [data-bs-target] {
+	width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    transition: 0.4s;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+.carousel-indicators .active{
+    background-color: #ffffff;
+}
+.carousel-control-prev-icon{
+      background-image: none;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #605d51;
+}
+.carousel-control-next-icon{
+    background-image: none ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #605d51;
+}
+.carousel-control-prev-icon .pre-icon{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+.carousel-control-next-icon .next-icon{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+/* header part css end */
+
+ /* service part start  */
+#service{
+    padding: 80px 0;
+    font-family: 'Poppins', sans-serif;
+}
+.common-title{
+    text-align: center;
+}
+.common-title h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #666262;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.common-title p{
+    font-size: 16px;
+    color: #9b9999;
+}
+
+.service-content{
+    text-align: center;
+    margin-top: 40px;
+    background-color: #fefefe;
+}
+.service-content .s-icon .icon{
+    font-size: 60px;
+    color: #b9b7b7;
+    margin-bottom: 20px;
+}
+.service-content h4{
+    font-size: 18px;
+}
+.service-content p{
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 25px;
+    margin-top: 15px;
+    color: #9b9999;
+}
+/* service part end  */
+
+/* portfolio part start */
+#portfolio{
+    padding: 80px 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #efefef;
+}
+
+
+
+
+
+
+
+
+/* portfolio part end */
